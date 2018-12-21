@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="md-menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <a-scene vr-mode-ui="enabled: false">
+    <a-assets>
+      <a-asset-item id="enga" src="assets/aframe/assets/A.bake.ply"></a-asset-item>
+      <a-asset-item id="engb" src="assets/aframe/assets/B.bake.ply"></a-asset-item>
+      <a-asset-item id="engc" src="assets/aframe/assets/C.bake.ply"></a-asset-item>
+      <a-asset-item id="engd" src="assets/aframe/assets/D.bake.ply"></a-asset-item>
+      <img id="my-image" src="assets/aframe/assets/A.2d.png">
+    </a-assets>
+
+
+    <!-- Lights -->
+    <a-entity id="ambient-light" light="type:ambient;color:#fff;intensity:1.3" position="0 10 0" rotation="0 90 0" scale="1 1 1"
+      visible="true"></a-entity>
+<!--      
+      <a-image src="#my-image" material="" geometry="" position="0.444 3.238402413360344 -3.9076966599672156"></a-image> -->
+
+
+      <a-entity id="ea" ply-model="src:#enga" position="4.986048996831219 0.2473874742670159 -10.50561819729792" rotation="-88.01221623535388 180 180"
+      scale="0.1 0.1 0.1"></a-entity>
+     
+    <a-entity id="eb" ply-model="src:#engb" position="-1.2767735033615057 7.611258105713205 -2.973783707516091" rotation="-16.566288490389624 44.74618583956061 -21.37021375854069"
+      scale="0.1 0.1 0.1"></a-entity>
+    <a-entity id="ec" ply-model="src:#engc" position="10.34559430217832 -9.430971115870273 5.662386652491115" rotation="-54.69232299393739 38.8282087273159 -179.86057918672387"
+      scale="0.1 0.1 0.1"></a-entity>
+    <a-entity id="ed" ply-model="src:#engd" position="-6.101554187146705 6.8823135603828245 6.4913881216849525" rotation="85.23043684670324 63.58073806849197 -65.41970254061302"
+      scale="0.1 0.1 0.1"></a-entity>
+
+  </a-scene>
+</ion-content>

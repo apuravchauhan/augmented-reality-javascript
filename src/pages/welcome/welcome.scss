@@ -1,0 +1,55 @@
+page-welcome {
+ 
+
+.ion-ios-punjabi,
+.ion-md-punjabi {
+  content: url(../../assets/icon/a.svg);
+  width: 24px;
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-punjabi-outline,
+.ion-md-punjabi-outline {
+  content: url(../../assets/icon/punjabi-a-outline.svg);
+  width: 24px;
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-hindi,
+.ion-md-hindi {
+  content: url(../../assets/icon/hindi-k.svg);
+  width: 24px;
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-hindi-outline,
+.ion-md-hindi-outline {
+  content: url(../../assets/icon/hindi-k-outline.svg);
+  width: 24px;
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-english,
+.ion-md-english {
+  content: url(../../assets/icon/english-a.svg);
+  width: 24px;
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+.ion-ios-english-outline,
+.ion-md-english-outline {
+  content: url(../../assets/icon/english-a-outline.svg);
+  width: 24px;
+  height: 32px;
+  padding: 6px 4px 2px;
+  opacity: 0.9;
+}
+}
+.ios .ion-page.show-page ~ .nav-decor{
+  background:transparent;
+}

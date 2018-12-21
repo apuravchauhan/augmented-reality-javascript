@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="md-menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <a-scene vr-mode-ui="enabled: false">
+    <a-assets>
+      <a-asset-item id="ha" src="assets/aframe/assets/hindi-k.bake.ply"></a-asset-item>
+      <a-asset-item id="hb" src="assets/aframe/assets/hindi-kh.bake.ply"></a-asset-item>
+      <a-asset-item id="hc" src="assets/aframe/assets/hindi-g.bake.ply"></a-asset-item>
+    </a-assets>
+
+
+    <!-- Lights -->
+    <a-entity id="ambient-light" light="type:ambient;color:#fff;intensity:1.3" position="0 10 0" rotation="0 90 0" scale="1 1 1"
+      visible="true"></a-entity>
+    
+      <a-entity id="hia" ply-model="src:#ha" position="4.986048996831219 0.2473874742670159 -10.50561819729792" rotation="-88.01221623535388 180 180"
+      scale="0.1 0.1 0.1"></a-entity>
+    <a-entity id="hib" ply-model="src:#hb" position="-1.2767735033615057 7.611258105713205 -2.973783707516091" rotation="-16.566288490389624 44.74618583956061 -21.37021375854069"
+      scale="0.1 0.1 0.1"></a-entity>
+    <a-entity id="hic" ply-model="src:#hc" position="10.34559430217832 -9.430971115870273 5.662386652491115" rotation="-54.69232299393739 38.8282087273159 -179.86057918672387"
+      scale="0.1 0.1 0.1"></a-entity>
+    
+  </a-scene>
+</ion-content>
